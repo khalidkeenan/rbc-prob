@@ -1,15 +1,15 @@
-package com.rbc.prob.basket.factory;
+package com.rbc.prob.store;
 
-import static com.rbc.prob.source.SimpleItemSource.APPLES;
-import static com.rbc.prob.source.SimpleItemSource.APPLES_NAME;
-import static com.rbc.prob.source.SimpleItemSource.BANANAS;
-import static com.rbc.prob.source.SimpleItemSource.BANANAS_NAME;
-import static com.rbc.prob.source.SimpleItemSource.LEMONS;
-import static com.rbc.prob.source.SimpleItemSource.LEMONS_NAME;
-import static com.rbc.prob.source.SimpleItemSource.ORANGES;
-import static com.rbc.prob.source.SimpleItemSource.ORANGES_NAME;
-import static com.rbc.prob.source.SimpleItemSource.PEACHES;
-import static com.rbc.prob.source.SimpleItemSource.PEACHES_NAME;
+import static com.rbc.prob.store.source.SimpleItemSource.APPLES;
+import static com.rbc.prob.store.source.SimpleItemSource.APPLES_NAME;
+import static com.rbc.prob.store.source.SimpleItemSource.BANANAS;
+import static com.rbc.prob.store.source.SimpleItemSource.BANANAS_NAME;
+import static com.rbc.prob.store.source.SimpleItemSource.LEMONS;
+import static com.rbc.prob.store.source.SimpleItemSource.LEMONS_NAME;
+import static com.rbc.prob.store.source.SimpleItemSource.ORANGES;
+import static com.rbc.prob.store.source.SimpleItemSource.ORANGES_NAME;
+import static com.rbc.prob.store.source.SimpleItemSource.PEACHES;
+import static com.rbc.prob.store.source.SimpleItemSource.PEACHES_NAME;
 
 import java.util.HashMap;
 import java.util.Map;

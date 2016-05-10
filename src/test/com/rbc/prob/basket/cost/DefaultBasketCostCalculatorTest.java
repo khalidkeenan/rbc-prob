@@ -1,22 +1,21 @@
 package com.rbc.prob.basket.cost;
 
-import static com.rbc.prob.source.SimpleItemSource.APPLES;
-import static com.rbc.prob.source.SimpleItemSource.APPLES_COST;
-import static com.rbc.prob.source.SimpleItemSource.BANANAS;
-import static com.rbc.prob.source.SimpleItemSource.BANANAS_COST;
-import static com.rbc.prob.source.SimpleItemSource.PEACHES;
-import static com.rbc.prob.source.SimpleItemSource.PEACHES_COST;
-
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.rbc.prob.store.source.SimpleItemSource.APPLES;
+import static com.rbc.prob.store.source.SimpleItemSource.APPLES_COST;
+import static com.rbc.prob.store.source.SimpleItemSource.BANANAS;
+import static com.rbc.prob.store.source.SimpleItemSource.BANANAS_COST;
+import static com.rbc.prob.store.source.SimpleItemSource.PEACHES;
+import static com.rbc.prob.store.source.SimpleItemSource.PEACHES_COST;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.rbc.prob.basket.factory.ItemStore;
 import com.rbc.prob.basket.item.BasketItem;
 import com.rbc.prob.basket.item.GeneralItem;
+import com.rbc.prob.store.ItemStore;
 
 public class DefaultBasketCostCalculatorTest {
 

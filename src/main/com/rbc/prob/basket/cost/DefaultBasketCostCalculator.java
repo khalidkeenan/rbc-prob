@@ -2,8 +2,8 @@ package com.rbc.prob.basket.cost;
 
 import java.util.Map;
 
-import com.rbc.prob.basket.factory.ItemStore;
 import com.rbc.prob.basket.item.BasketItem;
+import com.rbc.prob.store.ItemStore;
 
 public class DefaultBasketCostCalculator implements BasketCostCalculator{
 
